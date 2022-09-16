@@ -1,0 +1,10 @@
+sign up --- api/session
+	form
+		first name, last, mail, dob, mobile, address, username(10), pass(Aa!1), confirm pass --- validation
+
+login
+	form
+		username, pass
+
+
+material, route, responsive, redux
