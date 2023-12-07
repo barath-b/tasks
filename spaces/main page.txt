@@ -1,0 +1,35 @@
+main page
+  create space
+    form
+  login
+    form
+  home
+    search
+    recents
+    lists
+    ?approval
+  space
+    list of snippets
+      view snippet - code/preview
+    add new snippet
+      form
+    ?approve
+    ?users list - add/manage
+  profile
+    details - edit
+  settings
+    edit
+  ?admin
+    create spaces
+      users list - add/manage
+  no permission
+  not found
+
+
+tech
+	react
+	vite
+	sass
+	redux
+	react router
+	supabase

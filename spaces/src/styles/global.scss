@@ -1,0 +1,142 @@
+@use 'variables' as *;
+
+@font-face {
+	font-family: 'Poppins_Thin';
+	font-style: normal;
+	src: url('../assets/fonts/Poppins-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Poppins_Thin_Italics';
+	font-style: normal;
+	src: url('../assets/fonts/Poppins-ExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	src: url('../assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Poppins_Italics';
+	font-style: normal;
+	src: url('../assets/fonts/Poppins-Italic.ttf') format('truetype');
+}
+
+/********** Reset **********/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: $background;
+	color: $white;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/********** Fios styles **********/
+
+// Text styles
+:root {
+	font-size: 16px;
+}
+
+body {
+	font-family: $font-regular;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+label,
+button,
+.bold,
+.label {
+	font-family: $font-regular;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 5rem; //80px
+	line-height: 0.95;
+}
+
+h2 {
+	font-size: 4rem; //64px
+	line-height: 1;
+}
+
+h3 {
+	font-size: 3rem; //48px
+	line-height: 1;
+}
+
+h4 {
+	font-size: 2.5rem; //40px
+	line-height: 1;
+}
+
+h5 {
+	font-size: 2rem; //32px
+	line-height: 1;
+}
+
+label,
+.label {
+	font-family: $font-thin;
+	font-size: 0.75rem; //18px
+	line-height: 0.8;
+	letter-spacing: 0.5px;
+}
+
+p,
+.bodyText {
+	font-size: 1.25rem; //28px
+	line-height: 1.25;
+}
+
+.secondaryText {
+	font-size: 0.75rem; // 24px
+	line-height: 0.8;
+}
+
+/********** Button styles **********/
+
+.btn {
+	padding: 16px 56px;
+	font-size: 1.75rem;
+	letter-spacing: 1px;
+	border-radius: 2.25rem;
+	border: 2px solid $white;
+	background-color: transparent;
+	color: $white;
+}
+
+.btn.focused {
+	background-color: $white;
+	color: $black;
+}
